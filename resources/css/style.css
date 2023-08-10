@@ -169,3 +169,130 @@
 /* SECTION 2 RIGTH-SIDE END */
 
 /* SECTION 2 END */
+
+/* SECTION 3 START */
+.section_3 {
+    background-color: lightgrey;
+    align-content: center;
+}
+.section_3 h2 {
+    padding: 32px 0 16px;
+    text-align: center;
+    font-size: 58px;
+}
+/* IMAGE CONTAINER START */
+.display_flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px 32px 0 16px;
+}
+.display_flex_column {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 410px;
+    margin: 0 16px;
+}
+.section_3 img {
+    height: auto;
+    width: 410px;
+}
+.section_3 h4 {
+    padding: 16px 16px 8px;
+    font-weight: bold;
+    font-size: 27px;
+}
+.section_3 h5 {
+    padding: 8px 16px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.section_3 h6 {
+    padding: 8px 16px 24px;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+/* IMAGE CONTAINER  END */
+
+/* SECTION 3 END */
+
+/* SECTION 4 START */
+.section_4 {
+    background-color: white;
+    align-content: center !important;
+}
+.section_4 h2 {
+    margin: 32px 0;
+}
+.row_display {
+    display: flex;
+    flex-direction: row;
+    margin: 0 175px;
+}
+.column_display {
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px 0 24px;
+    width: 642px;
+}
+.section_4 video {
+    padding-left: 170px;
+}
+.section_4 h3 {
+    padding: 20px 170px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.section_4 h4 {
+    padding-left: 170px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    height: 170px;
+}
+.section_4 img {
+    padding: 16px;
+    height: 137px;
+    width: 137px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.section_4 h5 {
+    width: auto;
+    font-weight: 600;
+}
+.section_4 h6 {
+    width: auto;
+    font-weight: 200;
+}
+.row_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* SECTION 4 END */
+
+/* FOOTER START */
+.footer {
+    margin-top: 32px;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer p {
+    font-size: 20px;
+}
+.footer a {
+    font-size: 20px;
+}
+/* FOOTER END */
