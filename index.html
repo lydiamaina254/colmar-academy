@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <!-- NAVBAR START -->
-    <div class="navbar">
+    <!-- NAVBAR TABS & DESKTOP START -->
+    <div class="navbar hide_on_mobile hide_on_tabs_only">
         <div class="logo">
             <image src="/resources/capstone_colmar_assets/images/ic-logo.svg" alt="Colmar Academy Logo" />
             <h2>COLMAR</h2>
@@ -32,10 +32,19 @@
                 <a href="#sign in">Sign in</a>
         </div>
     </div>
-    <!-- NAVBAR END -->
+    <!-- NAVBAR DESKTOP END -->
 
-    <!-- SECTION 1 START -->
-    <div class="section_1">
+    <!-- NAVBAR MOBILE START -->
+    <div class="navbar_mobile hide_on_desktops_only">
+        <image src="/resources/capstone_colmar_assets/images/ic-logo.svg" alt="Logo Icon" />
+        <image src="/resources/capstone_colmar_assets/images/ic-on-campus.svg" alt="Trolley Icon"></image>
+        <image src="/resources/capstone_colmar_assets/images/ic-online.svg" alt="Computer Icon"></image>
+        <image src="/resources/capstone_colmar_assets/images/ic-login.svg" alt="Login Icon"></image>
+    </div>
+    <!-- NAVBAR MOBILE END -->
+
+    <!-- SECTION 1 TABS & DESKTOP START -->
+    <div class="section_1 hide_on_mobile">
         <div class="banner_image">
             <image src="/resources/capstone_colmar_assets/images/banner.jpg" alt="Banner" />
         </div>
@@ -45,11 +54,23 @@
             <button class="custom_button" disabled>Start here</button>
         </div>
     </div>
-    <!-- SECTION 1 END -->
+    <!-- SECTION 1 TABS & DESKTOP END -->
+    <!-- SECTION 1 MOBILE START -->
+    <div class="section_1_mobile hide_on_desktops_only hide_on_tabs_only ">
+        <div class="banner_image_mobile">
+            <image src="/resources/capstone_colmar_assets/images/banner.jpg" alt="Banner" />
+        </div>
+        <div class="section_1_text">
+            <h2>Learn something new everyday</h2>
+            <h3>LOrem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            <button class="custom_button" disabled>Start here</button>
+        </div>
+    </div>
+    <!-- SECTION 1 MOBILE END -->
 
-    <!-- SECTION 2 START -->
+    <!-- SECTION 2 TABS & DESKTOP START -->
     <!-- SECTION 2 LEFT-SIDE START -->
-    <div class="section_2">
+    <div class="section_2 hide_on_mobile">
         <div class="leftside_container">
             <image src="/resources/capstone_colmar_assets/images/information-main.jpg"
                 alt="Image of Student Reading a Book" />
@@ -71,8 +92,8 @@
                     alt="Students walking" />
                 <div class="section_2_rightside_headings">
                     <h5>Orientation date</h5>
-                    <h6>Tue 10/11 & Wed 10/12: 8am-3pm</h6s>
-                        <a href="#read more">Read more</a>
+                    <h6>Tue 10/11 & Wed 10/12: 8am-3pm</h6>
+                    <a href="#read more">Read more</a>
                 </div>
             </div>
             <!-- Blog ---- 1 End-->
@@ -102,14 +123,53 @@
         </div>
         <!-- SECTION 2 RIGHT-SIDE END -->
     </div>
-    <!-- SECTION 2 END -->
+    <!-- SECTION 2 TABS & DESKTOP END -->
 
-    <!-- SECTION 3 START -->
-    <div class="section_3">
+    <!-- SECTION 2 MOBILE START -->
+    <div class="section_2_rightside hide_on_desktops_only hide_on_tabs_only">
+        <!-- Blog ---- 1 Start-->
+        <div style="display: flex; flex-direction: column;">
+            <image src="/resources/capstone_colmar_assets/images/information-orientation-mobile.jpg"
+                alt="Students walking" />
+            <div class="section_2_rightside_headings">
+                <h5>Orientation date</h5>
+                <h6>Tue 10/11 & Wed 10/12: 8am-3pm</h6>
+                <a href="#read more">Read more</a>
+            </div>
+        </div>
+        <!-- Blog ---- 1 End-->
+        <!-- Blog ---- 2 Start-->
+        <div style="display: flex; flex-direction: column;">
+            <image src="/resources/capstone_colmar_assets/images/information-campus-mobile.jpg" alt="Campus image" />
+
+            <div class="section_2_rightside_headings">
+                <h5>Our Campus</h5>
+                <h6>Find which campus is close by you</h6>
+                <a href="#read more">Read more</a>
+            </div>
+        </div>
+        <!-- Blog ---- 2 End-->
+        <!-- Blog ---- 3 Start-->
+        <div style="display: flex; flex-direction: column;">
+            <image src="/resources/capstone_colmar_assets/images/information-guest-lecture-mobile.jpg"
+                alt="Image of guest lecturer" />
+            <div class="section_2_rightside_headings">
+                <h5>Our guest lecture</h5>
+                <h6>Join a keynote with Oliver sack about music
+                    in medical treatment</h6>
+                <a href="#read more">Read more</a>
+            </div>
+        </div>
+        <!-- Blog ---- 3 End-->
+    </div>
+    <!-- SECTION 2 MOBILE END -->
+
+    <!-- SECTION 3 TABS & DESKTOP START -->
+    <div class="section_3 hide_on_mobile">
         <div>
             <h2>Start learning</h2>
         </div>
-        <!-- IMAGE CONTAINER 1 START -->
+        <!-- IMAGE CONTAINER 1 TABS & DESKTOP START -->
         <div class="display_flex_row">
             <div class="display_flex_column">
                 <div>
@@ -142,9 +202,9 @@
                 </div>
             </div>
         </div>
-        <!-- IMAGE CONTAINER 1 END -->
+        <!-- IMAGE CONTAINER 1 TABS & DESKTOP END -->
 
-        <!-- IMAGE CONTAINER 2 START -->
+        <!-- IMAGE CONTAINER 2 TABS & DESKTOP START -->
         <div class="display_flex_row">
             <div class="display_flex_column">
                 <div>
@@ -176,52 +236,97 @@
                     <h6>Analytics, Content Marketing, Mobile Marketing</h6>
                 </div>
             </div>
-            <!-- IMAGE CONTAINER 2 END -->
+            <!-- IMAGE CONTAINER 2 TABS & DESKTOP END -->
 
         </div>
-        <!-- SECTION 3 END -->
+    </div>
 
-        <!-- SECTION 4 START -->
-        <div class="section_4">
+    <!-- SECTION 3 TABS & DESKTOP END -->
+
+    <!-- SECTION 3 MOBILE START -->
+    <div class="section_3_mobile hide_on_desktops_only hide_on_tabs_only">
+        <h2>Start learning</h2>
+        <div class="blog_titles">
+            <h3>Software engineering</h3>
+        </div>
+        <div class="blog_titles">
+            <h3>Computer art</h3>
+        </div>
+        <div class="blog_titles">
+            <h3>Design</h3>
+        </div>
+        <div class="blog_titles">
+            <h3>Data</h3>
+        </div>
+        <div class="blog_titles">
+            <h3>Business</h3>
+        </div>
+        <div class="blog_titles">
+            <h3>Marketing</h3>
+        </div>
+
+    </div>
+    <!-- SECTION 3 MOBILE END -->
+
+    <!-- SECTION 4 TABS & DESKTOP START -->
+    <div class="section_4 hide_on_mobile">
+        <div>
+            <h2>Thesis exhibit</h2>
+        </div>
+        <div class="row_display">
+            <div class="column_display">
+                <video src="/resources/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
+                </video>
+                <h3>Reimagine urban</h3>
+                <h4>"Cubaritur vitae libero in ipsum porttitor consequat. Aliquam que commodo lectus,
+                    nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex.Etiam eget magna
+                    laoreet, efficitur dolor consequat, tristique ligulla."
+                </h4>
+            </div>
             <div>
-                <h2>Thesis exhibit</h2>
-            </div>
-            <div class="row_display">
-                <div class="column_display">
-                    <video src="/resources/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
-                    </video>
-                    <h3>Reimagine urban</h3>
-                    <h4>"Cubaritur vitae libero in ipsum porttitor consequat. Aliquam que commodo lectus,
-                        nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex.Etiam eget magna
-                        laoreet, efficitur dolor consequat, tristique ligulla."
-                    </h4>
-                </div>
-                <div>
-                    <div class="row">
-                        <image src="/resources/capstone_colmar_assets/images/thesis-fisma.jpg" alt="Design Process" />
-                        <div class="column">
-                            <h5>Fisma: Design and Prototype</h5>
-                            <h6>Designer showcase of new prototype product</h6>
-                        </div>
+                <div class="row">
+                    <image src="/resources/capstone_colmar_assets/images/thesis-fisma.jpg" alt="Design Process" />
+                    <div class="column">
+                        <h5>Fisma: Design and Prototype</h5>
+                        <h6>Designer showcase of new prototype product</h6>
                     </div>
-                    <div class="row_1">
-                        <image src="/resources/capstone_colmar_assets/images/thesis-now-and-then.jpg"
-                            alt="Image of New York" />
-                        <div class="column">
-                            <h5>Now and then</h5>
-                            <h6>Research study about New York</h6>
-                        </div>
+                </div>
+                <div class="row_1">
+                    <image src="/resources/capstone_colmar_assets/images/thesis-now-and-then.jpg"
+                        alt="Image of New York" />
+                    <div class="column">
+                        <h5>Now and then</h5>
+                        <h6>Research study about New York</h6>
                     </div>
                 </div>
             </div>
-            <!-- SECTION 4 END -->
+        </div>
+    </div>
+    <!-- SECTION 4 TABS & DESKTOP END -->
 
-            <!-- FOOTER START -->
-            <div class="footer">
-                <p>&copy; 2016 Colmar Academy. All rights reserved.</p>
-                <a href="#terms privacy">Terms Privacy</a>
-            </div>
-            <!-- FOOTER END -->
+    <!-- SECTION 4 MOBILE START -->
+    <div class="section_4_mobile hide_on_desktops_only hide_on_tabs_only">
+        <div>
+            <h2>Thesis exhibit</h2>
+        </div>
+        <div>
+            <video src="/resources/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- SECTION 4 END -->
 
+    <!-- FOOTER TABS & DESKTOP START -->
+    <div class="footer hide_on_mobile">
+        <p>&copy; 2016 Colmar Academy. All rights reserved.</p>
+        <a href="#terms privacy">Terms Privacy</a>
+    </div>
+    <!-- FOOTER TABS & DESKTOP END -->
 
+    <!-- FOOTER MOBILE START -->
+    <div class="footer_mobile hide_on_desktops_only hide_on_tabs_only">
+        <p>&copy; 2016 Colmar Academy. All rights reserved.</p>
+    </div>
+    <!-- FOOTER MOBILE END -->
 </body>
+</html>
