@@ -518,7 +518,7 @@ height: auto;
 
 /* DESKTOPS ONLY STYLES START */
 @media screen and (min-width: 1024px) {
-    .hide_on_tabs_only {
+    .hide_on_desktops_only {
         display: none !important;
     }
 }
